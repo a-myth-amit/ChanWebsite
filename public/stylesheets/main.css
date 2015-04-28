@@ -1,0 +1,54 @@
+body
+{
+  font-size: 16px;
+  background: none repeat scroll 0% 0% #F7F4ED;
+  font-family: "Trade Gothic W01","TradeGothic",sans-serif;
+  color: #363636;
+}
+
+.join
+{
+  background: none repeat scroll 0% 0% transparent;
+  border-width: medium medium 2px;
+  border-style: none none solid;
+  border-color: -moz-use-text-color -moz-use-text-color #E8E15A;
+  -moz-border-top-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  border-image: none;
+  color: #424243;
+  outline: medium none;
+  z-index: 30;
+  transition: all 0.1s ease 0s;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.placement
+{
+  position: fixed;
+  top: 2px;
+  right: 40px;
+  padding: 3px;
+}
+
+.rounded-small
+{
+  border-radius: 60%;
+  height: 50px;
+  width: 50px;
+}
+
+.rounded
+{
+  border: 0.5px solid rgb(153,204,255);
+  border-radius: 80%;
+  height: 550px;
+}
+
+.left
+{
+  float: left;
+}

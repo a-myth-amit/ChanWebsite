@@ -1,0 +1,27 @@
+doctype
+html
+  head
+    title #{title} - Welcome
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/bootstrap-responsive.min.css')
+    link(rel='stylesheet', href='/stylesheets/main.css')
+    .placement
+      button(class="join") Logged in as 
+      img(class="rounded-small" src="/userLOggedInAs.jpg")
+  body
+    header
+      .navbar
+        .navbar-inner
+          a(href="#", class="brand") HOME 
+          ul(class="nav")
+            li(class="active")
+              a(href="http://www.bing.com") BING
+            li
+              a(href="http://www.ddg.gg") DDG 
+    .container
+      .main-content
+        img(class="left rounded" src="http://mpoweryogastudio.com/site/assets/themes/mpower/img/upcoming-home.jpg")
+        block content
+    footer
+      p Running on node with Express, Jade and Stylus
+      
